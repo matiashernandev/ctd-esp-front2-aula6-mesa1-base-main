@@ -1,15 +1,16 @@
-.about {
+.about-container {
   background-color: rgb(243, 243, 243);
   text-align: center;
 }
-.about ul {
+.about-container ul {
   list-style: none;
 }
 
 .blockText {
   width: 40%;
-  margin: 0 auto;
-  font-size: 0.6rem;
+  margin: 2rem auto;
+  font-size: 1rem;
+  gap: 2rem;
 }
 
 .buttonAbout {
@@ -20,20 +21,15 @@
   background-color: rgb(66, 66, 255);
   border: none;
   font-size: 1.3rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
   color: white;
-  margin: 32px auto 32px auto;
 }
 
 .buttonAbout:hover {
-  opacity: 0.9;
+  opacity: 0.5;
   cursor: pointer;
 }
 
 .imageCite {
   width: 500px;
-  margin: 0 auto;
+  margin: 2rem auto;
 }

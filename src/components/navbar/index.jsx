@@ -2,7 +2,7 @@ import "./style.css";
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav aria-label="Navegación principal">
       <h1>Ricky and Morty</h1>
     </nav>
   );
